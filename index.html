@@ -14,11 +14,11 @@
                     <h1 data-text="Hi, I'm Thinh Vu" class="intro-header">
                             <mark class="intro-mark">Hi, I'm Thinh Vu</mark>
                         </h1>
-                        <h2 data-text="Junior Front-end Developer" class="intro-title">
-                            <mark class="intro-mark">Junior Front-end Developer</mark>
+                        <h2 data-text="Soon to be Front-end Developer" class="intro-title">
+                            <mark class="intro-mark">Soon to be Front-end Developer</mark>
                         </h2>
                         <p class="intro-text">
-                            I focus on Website development with a keen eye for creating engaging UI design
+                            I focus on Website development with a keen eye for creating engaging web design
                         </p>
                     </div>
                     <ul class="social-list" aria-label ="Social media">
@@ -66,9 +66,9 @@
                         </ul>
                     </nav>
                     <div class="section-layout">
-                        <section class="about-layout" aria-label="About Me">
+                        <section id="about" class="about-layout" aria-label="About Me">
                             <div class="about-container">
-                                <div class="about-border back-border"></div>
+                                <div class="about-inner-border back-border"></div>
                                 <div class="about-content">
                                     <p class="about-text">
                                         Based in Brighton, United Kingdom. My coding journey began in 2022; I started learning basic concepts through
@@ -85,15 +85,15 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="project-layout" aria-label="My projects">
+                        <section id="project" class="project-layout" aria-label="My projects">
                             <ul class="project-list">
                                 <li class="app-item">
-                                    <div class="large-app-grid">
-                                        <div class="app-outer-border back-border"></div>
+                                    <div class="app-grid large-grid">
+                                        <div class="app-container back-border"></div>
                                         <div class="app-content large-app">
                                             <h3>
                                                 <a class="app-link" href="" target="_blank" rel="norefferrer" aria-label="">
-                                                    <span class="app-inner-border"></span>
+                                                    <span class="link-border"></span>
                                                     <span class=>Placeholder title
                                                         <span class="app-arrow">
                                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="app-graphic" aria-hidden="true">
@@ -124,12 +124,12 @@
                                     </div>
                                 </li>
                                 <li class="app-item">
-                                    <div class="small-app-grid">
-                                        <div class="app-outer-border back-border"></div>
+                                    <div class="app-grid small-grid">
+                                        <div class="app-container back-border"></div>
                                         <div class="app-content small-app">
                                             <h3>
                                                 <a class="app-link" href="" target="_blank" rel="norefferrer" aria-label="">
-                                                    <span class="app-inner-border"></span>
+                                                    <span class="link-border"></span>
                                                     <span class=>Placeholder title
                                                         <span class="app-arrow">
                                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="app-graphic" aria-hidden="true">
@@ -161,6 +161,28 @@
                                 </li>
                             </ul>
                         </section>
+                        <section id="contact" class="contact-layout" arial-label="Contact me">
+                            <div class="contact-container">
+                                <div class="contact-inner-border back-border"></div>
+                                <div class="contact-content">
+                                    <p class="contact-text">
+                                        Get in touch through my socials or send me an email directly on <b>work@gmail.com</b>
+                                    </p>
+                                    <form class="form-layout" method="POST" action="">
+                                        <div class="form-field">
+                                                <input class="form-input" id="name" type="text" name="name" placeholder="Name" aria-required="true" autocomplete="off" required>
+                                            </div>
+                                            <div class="form-field">
+                                                <input class="form-input" id="email" type="email" name="email" placeholder="Email" aria-required="true" autocomplete="off" required>
+                                            </div>
+                                            <div class="form-field">
+                                                <textarea class="form-input" id="message" rows="5" name="message" placeholder="Message" aria-required="true" autocomplete="off" required></textarea>
+                                            </div>
+                                        <button class="form-btn" type="submit" aria-label="Send message">Send Message</button>
+                                    </form>
+                                </div>
+                            </div>
+                    </section>
                     </div>
                 </main>
             </div>
