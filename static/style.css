@@ -408,11 +408,15 @@ button, a {
     border-color: transparent;
     border-radius: 0.25rem;
     border-width: 2px;
+    max-width: 100%;
+    height: auto;
+    width: auto
 }
 
 .large-image-content {
     grid-column: span 8;
 }
+
 
 .small-image-content {
     grid-column: span 3;
@@ -450,6 +454,11 @@ button, a {
     padding: 1.5rem 1.5rem;
 }
 
+.form-input:focus {
+    background: var(--ho-secondary);
+    outline: 1.5px solid var(--ho-primary);
+}
+
 textarea.form-input {
     height: auto;
 }
@@ -465,6 +474,21 @@ textarea.form-input {
     line-height: 1.5;
     border-radius: 0.25rem;
     padding: 1rem 2rem;
+}
+
+/* footer */
+
+.footer-layout {
+    margin-top: 2rem;
+}
+
+.footer-text {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.footer-link {
+    font-weight: 500;
 }
 
 @media (min-width: 640px) {
@@ -521,6 +545,7 @@ textarea.form-input {
     }
 
     .about-layout, .project-layout, .contact-layout {
+        scroll-margin-top:  6rem;
         margin-bottom: 9rem;
         padding: 1rem 1.5rem;
     }
@@ -565,5 +590,9 @@ textarea.form-input {
     .form-btn:hover::after, .form-btn:focus-visible::after {
         transform-origin: left;
         scale: 1 1;
+    }
+
+    .footer-link:hover {
+        color: var(--full-primary);
     }
 }
