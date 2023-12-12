@@ -537,6 +537,10 @@ textarea.form-input {
         padding: 6rem 0;
     }
 
+    .social-link svg:hover {
+        color: var(--full-primary);
+    }
+
     .navbar-layout {
         display: flex;
         position: relative;

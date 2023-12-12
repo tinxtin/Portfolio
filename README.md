@@ -31,5 +31,5 @@ Following images shows the overall look of the main component of the web portfol
 
 Following url link will take you to the deployed web portfolio.
 
-Deployed Url: https://tinxtin.github.io/bootcamp-challenge-2/
+Deployed Url: https://tinxtin.github.io/Bootstrap-Portfolio/
 
