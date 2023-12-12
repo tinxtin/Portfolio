@@ -27,3 +27,9 @@ Following images shows the overall look of the main component of the web portfol
 
 ![Image-7](./static/image/Screenshot%202023-12-12%20174445.png "Large view")
 
+## URL
+
+Following url link will take you to the deployed web portfolio.
+
+Deployed Url: https://tinxtin.github.io/bootcamp-challenge-2/
+
